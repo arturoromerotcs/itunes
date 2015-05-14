@@ -38,6 +38,7 @@ app.controller('mainCtrl', function($scope, itunesService){
         CollectionPrice: ituneSong.collectionPrice
       }
     }
+    
     /*
       AlbumArt: "http://a3.mzstatic.com/us/r30/Features4/v4/22/be/30/22be305b-d988-4525-453c-7203af1dc5a3/dj.srlprmuo.100x100-75.jpg"
       Artist: "Nelly"
