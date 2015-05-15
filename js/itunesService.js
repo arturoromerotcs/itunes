@@ -2,6 +2,8 @@ var app = angular.module('itunes');
 
 app.service('itunesService', function($http, $q){
 
+  console.log('hello from service')
+
   this.getSongs = function(artist) {
   	
   	 var deferred = $q.defer();

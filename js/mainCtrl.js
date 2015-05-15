@@ -29,7 +29,7 @@ app.controller('mainCtrl', function($scope, itunesService){
       return {
         Play: ituneSong.previewUrl,
         Artist: ituneSong.artistName,
-        Collection: ituneSong.collectionCensoredName,
+        Collection: ituneSong.trackName,
         AlbumArt: ituneSong.artworkUrl60,
         Type: ituneSong.primaryGenreName,
         CollectionPrice: ituneSong.trackPrice
